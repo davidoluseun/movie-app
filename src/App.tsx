@@ -9,7 +9,7 @@ import theme from "./theme-config/theme";
 import "@fontsource/dm-sans";
 
 function App() {
-  const url = "https://www.omdbapi.com/?&apikey=e1a73560&";
+  const url = "https://www.omdbapi.com/?&apikey=2b08a4c2&";
   const [search, setSearch] = React.useState("beyond");
   const [movies, setMovies] = React.useState([]);
   const [category, setCategory] = React.useState("");
